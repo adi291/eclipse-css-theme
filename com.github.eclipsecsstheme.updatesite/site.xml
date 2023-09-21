@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.github.eclipsecsstheme.feature_1.0.0.202309211729.jar" id="com.github.eclipsecsstheme.feature" version="1.0.0.202309211729">
+      <category name="com.github.eclipsecsstheme.updatesite"/>
+   </feature>
+   <category-def name="com.github.eclipsecsstheme.updatesite" label="Eclipse CSS Theme"/>
+</site>
