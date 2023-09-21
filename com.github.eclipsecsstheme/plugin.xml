@@ -4,17 +4,23 @@
    <extension
          point="org.eclipse.core.runtime.preferences">
       <initializer
-            class="com.github.csstheme.preferences.PreferenceInitializer">
+            class="com.github.eclipsecsstheme.preferences.PreferenceInitializer">
       </initializer>
    </extension>
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
             category="org.eclipse.ui.preferencePages.Views"
-            class="com.github.csstheme.preferences.CSSThemePreferencePage"
+            class="com.github.eclipsecsstheme.preferences.CSSThemePreferencePage"
             id="com.github.csstheme.preferences.CSSThemePreferencePage"
             name="CSS Theme">
       </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.github.eclipsecsstheme.Startup">
+      </startup>
    </extension>
 
 

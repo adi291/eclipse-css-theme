@@ -1,4 +1,4 @@
-package com.github.csstheme;
+package com.github.eclipsecsstheme;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;

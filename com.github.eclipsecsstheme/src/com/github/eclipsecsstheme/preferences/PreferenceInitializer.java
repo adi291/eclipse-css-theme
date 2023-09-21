@@ -1,9 +1,9 @@
-package com.github.csstheme.preferences;
+package com.github.eclipsecsstheme.preferences;
 
 import org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer;
 import org.eclipse.jface.preference.IPreferenceStore;
 
-import com.github.csstheme.Activator;
+import com.github.eclipsecsstheme.Activator;
 
 public class PreferenceInitializer extends AbstractPreferenceInitializer {
 
