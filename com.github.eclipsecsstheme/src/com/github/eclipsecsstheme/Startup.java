@@ -12,7 +12,7 @@ public class Startup implements IStartup {
 
 	@Override
 	public void earlyStartup() {
-		Display.getDefault().asyncExec(new Runnable() {
+		Display.getDefault().syncExec(new Runnable() {
 			@Override
 			public void run() {
 				IPreferenceStore store = Activator.getDefault().getPreferenceStore();
